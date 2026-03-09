@@ -13,7 +13,7 @@
 # Row 3 → 3 coins → remaining 2
 # Row 4 → needs 4 coins ❌
 
-# ✅ Total complete rows = 3
+#  Total complete rows = 3
 
 n= int(input("Enter a number: ")) 
 rows=1 
@@ -23,3 +23,4 @@ while(remaining>=rows):
     rows=rows+1       
 
 print(rows-1)
+
